@@ -130,18 +130,18 @@ const AchievementDetails = () => {
               Skills :
             </h1>
             <ul className=" flex flex-wrap md:w-1/2 w-full mt-5 gap-3 ">
-              {isLoading ? (
-                [1, 2, 3, 4, 5].map((item) => (
-                  <div
-                    className="w-28 h-8 rounded-full bg-[#8f8e8e] animate-pulse"
-                    key={item}
-                  ></div>
-                ))
-              ) : (
-                <li className="ring-[.5px] bg-[#131313]  px-4 font-medium font-sans py-2 ring-gray-600 text-sm rounded-full text-gray-200 duration-500 hover:text-pink-400 hover:ring-pink-400 hover:cursor-pointer">
-                  React JS
-                </li>
-              )}
+              {isLoading
+                ? [1, 2, 3, 4, 5].map((item) => (
+                    <div
+                      className="w-28 h-8 rounded-full bg-[#8f8e8e] animate-pulse"
+                      key={item}
+                    ></div>
+                  ))
+                : achievement?.skills?.map((item) => (
+                    <li className="ring-[.5px] bg-[#131313]  px-4 font-medium font-sans py-2 ring-gray-600 text-sm rounded-full text-gray-200 duration-500 hover:text-pink-400 hover:ring-pink-400 hover:cursor-pointer">
+                      {item}
+                    </li>
+                  ))}
             </ul>
           </div>
         </div>
