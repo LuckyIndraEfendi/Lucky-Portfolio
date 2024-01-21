@@ -68,7 +68,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Enter your First Name"
                 id="firstName"
-                className="py-2 md:py-3 px-4 mt-3 rounded-md bg-[#1b1b1b] outline-none border-none ring-1 focus:ring-2 font-poppins text-white placeholder:text-slate-300 ring-pink-500"
+                className="py-3 md:py-3 px-4 mt-3 rounded-md bg-[#1b1b1b] outline-none border-none ring-1 focus:ring-2 font-poppins text-white placeholder:text-slate-300 ring-pink-500"
                 {...register("firstName", {
                   required: "FirstName is required",
                 })}
@@ -88,7 +88,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Enter your Last Name"
                 id="lastName"
-                className="py-2 md:py-3 px-4 mt-3 rounded-md bg-[#1b1b1b] outline-none border-none ring-1 focus:ring-2 font-poppins text-white placeholder:text-slate-300 ring-pink-500"
+                className="py-3 md:py-3 px-4 mt-3 rounded-md bg-[#1b1b1b] outline-none border-none ring-1 focus:ring-2 font-poppins text-white placeholder:text-slate-300 ring-pink-500"
                 {...register("lastName", { required: "LastName is required" })}
               />
               <p className="text-red-500 font-karla mt-2">

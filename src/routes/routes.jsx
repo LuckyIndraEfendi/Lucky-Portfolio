@@ -6,6 +6,7 @@ import {
   About,
   Skills,
   Achievement,
+  AchievementDetails,
   Homepage,
   ProjectDetails,
   Contact,
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "/achievements",
         element: <Achievement />,
+      },
+      {
+        path: "/certification/:id",
+        element: <AchievementDetails />,
       },
       {
         path: "/contact",
