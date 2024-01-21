@@ -2,18 +2,9 @@ import About from "./About";
 import Blog from "./Blog";
 import Experience from "./Experience";
 import Contact from "./Contact";
-import Projects from "./Projects";
+import Project from "./Projects";
 import Hero from "./Hero";
-import Skills from "./Skills";
+import Skill from "./Skills";
 import Achievement from "./Achievement";
 
-export {
-  Hero,
-  About,
-  Blog,
-  Contact,
-  Projects,
-  Experience,
-  Skills,
-  Achievement,
-};
+export { Hero, About, Blog, Contact, Project, Experience, Skill, Achievement };

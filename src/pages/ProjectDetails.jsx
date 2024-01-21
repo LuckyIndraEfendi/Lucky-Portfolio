@@ -46,7 +46,7 @@ const ProjectDetails = () => {
         TwCard={project?.banner}
         TwDesc={project?.description}
       />
-      <div className="mt-24">
+      <div className="mt-28">
         <h1 className="text-white font-poppins text-2xl sm:text-3xl font-bold uppercase">
           Project Details
         </h1>
