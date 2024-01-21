@@ -1,6 +1,21 @@
+import { useEffect } from "react";
 import { Skill } from "../components/pagesHome";
 import SEO from "../utils/SEO";
+import { logEvent } from "firebase/analytics";
+import { analytics } from "../config/firebase";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Skills = () => {
+  useEffect(() => {
+    logEvent(analytics, "skill_event");
+    AOS.init({
+      delay: 0,
+      duration: 800,
+      easing: "ease-in-out",
+      once: false,
+      mirror: false,
+    });
+  }, []);
   return (
     <>
       <SEO

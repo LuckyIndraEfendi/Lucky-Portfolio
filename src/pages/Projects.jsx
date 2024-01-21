@@ -1,7 +1,22 @@
+import { useEffect } from "react";
 import { Project } from "../components/pagesHome";
 import SEO from "../utils/SEO";
-
+import { logEvent } from "firebase/analytics";
+import { analytics } from "../config/firebase";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Projects = () => {
+  useEffect(() => {
+    logEvent(analytics, "project_event");
+    AOS.init({
+      delay: 0,
+      duration: 800,
+      easing: "ease-in-out",
+      once: false,
+      mirror: false,
+      anchorPlacement: "top-bottom",
+    });
+  }, []);
   return (
     <>
       <SEO
