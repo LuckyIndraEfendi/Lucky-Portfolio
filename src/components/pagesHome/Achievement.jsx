@@ -43,7 +43,7 @@ const Achievement = () => {
       />
       <section id="projects" className="mt-20">
         <div className="grid justify-center">
-          <h1 className="text-white font-poppins text-3xl sm:text-4xl font-bold uppercase ">
+          <h1 className="text-white text-center font-poppins text-3xl sm:text-4xl font-bold uppercase ">
             Licenses & Certifications
           </h1>
           <p className="uppercase text-pink-400 text-center tracking-widest">
