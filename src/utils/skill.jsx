@@ -14,6 +14,7 @@ import {
   SiBootstrap,
   SiAmazonaws,
   SiRemix,
+  SiPrisma,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaHtml5, FaCss3Alt, FaSass } from "react-icons/fa";
@@ -72,61 +73,66 @@ export const skill = [
   },
   {
     id: 11,
+    icon: <SiPrisma className="text-5xl text-white" />,
+    title: "Prisma",
+  },
+  {
+    id: 12,
     icon: <SiPostgresql className="text-5xl text-white" />,
     title: "PostgreSQL",
   },
   {
-    id: 12,
+    id: 13,
     icon: <SiMongodb className="text-5xl text-white" />,
     title: "MongoDB",
   },
   {
-    id: 13,
+    id: 14,
     icon: <SiNetlify className="text-5xl text-white" />,
     title: "Netlify",
   },
   {
-    id: 14,
+    id: 15,
     icon: <SiMysql className="text-5xl text-white" />,
     title: "MySQL",
   },
   {
-    id: 15,
+    id: 16,
     icon: <SiThreedotjs className="text-5xl text-white" />,
     title: "Three.js",
   },
   {
-    id: 16,
+    id: 17,
     icon: <TbBrandFramerMotion className="text-5xl text-white" />,
     title: "Framer",
   },
   {
-    id: 17,
+    id: 18,
     icon: <SiVercel className="text-5xl text-white" />,
     title: "Vercel",
   },
   {
-    id: 18,
+    id: 19,
     icon: <SiRedux className="text-5xl text-white" />,
     title: "Redux",
   },
   {
-    id: 19,
+    id: 20,
     icon: <SiAppwrite className="text-5xl text-white" />,
     title: "Appwrite",
   },
   {
-    id: 20,
+    id: 21,
     icon: <SiTailwindcss className="text-5xl text-white" />,
     title: "Tailwind",
   },
   {
-    id: 21,
+    id: 22,
     icon: <SiBootstrap className="text-5xl text-white" />,
     title: "Bootstrap",
   },
   {
-    id: 22,
+    id: 23,
     icon: <SiAmazonaws className="text-5xl text-white" />,
     title: "AWS",
   },

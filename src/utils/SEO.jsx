@@ -10,6 +10,8 @@ const SEO = ({
   TwDesc,
   TwImage,
   TwCard,
+  robots,
+  googleBot,
 }) => {
   return (
     <Helmet>
@@ -17,6 +19,8 @@ const SEO = ({
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <meta name="author" content={author} />
+      <meta name="robots" content={robots} />
+      <meta name="googlebot" content={googleBot} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={OGimage} />

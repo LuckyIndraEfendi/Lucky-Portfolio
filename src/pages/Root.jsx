@@ -7,7 +7,9 @@ const Root = () => {
     <>
       <div className="h-full w-full  bg-[url('/LooperGroup2.png')] bg-no-repeat">
         <Navbar />
-        <Outlet />
+        <main className="w-[90%] m-auto">
+          <Outlet />
+        </main>
         <Footer />
       </div>
     </>
