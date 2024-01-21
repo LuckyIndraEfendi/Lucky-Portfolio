@@ -22,6 +22,10 @@ const menu = [
     title: "Skills",
     path: "/skills",
   },
+  {
+    title: "Achievements",
+    path: "/achievements",
+  },
 ];
 
 const Navbar = () => {

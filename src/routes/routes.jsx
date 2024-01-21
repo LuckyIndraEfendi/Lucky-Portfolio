@@ -1,7 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../pages/Root";
 import Homepage from "../pages/Homepage";
-import { Projects, Experience, About, Skills } from "../components/pagesHome";
+import {
+  Projects,
+  Experience,
+  About,
+  Skills,
+  Achievement,
+} from "../components/pagesHome";
 import ProjectDetails from "../pages/ProjectDetails";
 const router = createBrowserRouter([
   {
@@ -31,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/project/:id",
         element: <ProjectDetails />,
+      },
+      {
+        path: "/achievements",
+        element: <Achievement />,
       },
     ],
   },
