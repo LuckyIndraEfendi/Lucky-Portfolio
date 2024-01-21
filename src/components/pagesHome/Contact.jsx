@@ -106,7 +106,7 @@ const Contact = () => {
                 type="email"
                 id="email"
                 placeholder="Enter your Email Address"
-                className="py-2 md:py-3 px-4 mt-3 rounded-md bg-[#1b1b1b] outline-none border-none ring-1 focus:ring-2 font-poppins text-white placeholder:text-slate-300 ring-pink-500"
+                className="py-3 md:py-3 px-4 mt-3 rounded-md bg-[#1b1b1b] outline-none border-none ring-1 focus:ring-2 font-poppins text-white placeholder:text-slate-300 ring-pink-500"
                 {...register("email", { required: "Email is required" })}
               />
               <p className="text-red-500 font-karla mt-2">
@@ -123,7 +123,7 @@ const Contact = () => {
               <textarea
                 placeholder="Enter your Message"
                 id="message"
-                className="py-2 md:py-3 md:h-52 resize-none px-4 mt-3 rounded-md bg-[#1b1b1b] outline-none border-none ring-1 focus:ring-2 font-poppins text-white placeholder:text-slate-300 ring-pink-500"
+                className="py-2 md:py-3 h-52 resize-none px-4 mt-3 rounded-md bg-[#1b1b1b] outline-none border-none ring-1 focus:ring-2 font-poppins text-white placeholder:text-slate-300 ring-pink-500"
                 {...register("message", { required: "Message is required" })}
               ></textarea>
               <p className="text-red-500 font-karla mt-2">

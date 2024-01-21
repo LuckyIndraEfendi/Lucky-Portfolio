@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
 const menu = [
   {
@@ -60,9 +60,11 @@ const Navbar = () => {
           scroll ? "bg-[#161414] shadow-sm shadow-[#313131]" : "bg-transparent"
         } px-5 sm:px-16 py-5 right-0  fixed top-0 w-full z-10 duration-150 flex items-center justify-between `}
       >
-        <div className="logo">
-          <img src="/logo/favicon.png" alt="" width={160} />
-        </div>
+        <Link to="/">
+          <div className="logo">
+            <img src="/logo/favicon.png" alt="" width={160} />
+          </div>
+        </Link>
         <div className="relative lg:hidden duration-300">
           <div className="toogle hover:cursor-pointer">
             <IoMenu className="text-white text-4xl" onClick={handleOpen} />
