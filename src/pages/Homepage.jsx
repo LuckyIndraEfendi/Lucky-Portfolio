@@ -5,14 +5,26 @@ import {
   Experience,
   Project,
   Skill,
+  Contact,
 } from "../components/pagesHome";
 import { logEvent } from "firebase/analytics";
 import { analytics } from "../config/firebase";
 import SEO from "../utils/SEO";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Homepage = () => {
   useEffect(() => {
     logEvent(analytics, "homepage_event");
+    AOS.init({
+      delay: 0,
+      duration: 800,
+      easing: "ease-in-out",
+      once: false,
+      mirror: false,
+      anchorPlacement: "top-bottom",
+    });
   }, []);
+
   return (
     <>
       <SEO
@@ -34,6 +46,7 @@ const Homepage = () => {
         <Experience />
         <Project />
         <Skill />
+        <Contact />
       </div>
     </>
   );

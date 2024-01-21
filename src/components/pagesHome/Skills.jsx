@@ -3,7 +3,7 @@ const Skill = () => {
   return (
     <>
       <section id="about" className="mt-28">
-        <div className="grid justify-center">
+        <div className="grid justify-center" data-aos="fade-up">
           <h1 className="text-white font-poppins text-3xl sm:text-4xl font-bold uppercase ">
             Skill & Ability
           </h1>
@@ -11,7 +11,11 @@ const Skill = () => {
             Explore Now
           </p>
         </div>
-        <ul className="flex flex-wrap gap-5 w-full sm:w-[70%] m-auto mt-10 justify-center">
+        <ul
+          className="flex flex-wrap gap-5 w-full sm:w-[70%] m-auto mt-10 justify-center"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           {skill.map((item) => (
             <li className="" key={item.id}>
               <div className="bg-[#1d1c1c] px-3 py-3 rounded-full">

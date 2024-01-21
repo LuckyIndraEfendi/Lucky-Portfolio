@@ -8,6 +8,7 @@ import {
   Achievement,
   Homepage,
   ProjectDetails,
+  Contact,
 } from "../pages";
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/achievements",
         element: <Achievement />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },

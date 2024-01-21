@@ -17,6 +17,7 @@ const SEO = ({
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
+      <link rel="icon" type="image/x-icon" href="/logo/favicon_profile.png" />
       <meta name="keywords" content={keywords} />
       <meta name="author" content={author} />
       <meta name="robots" content={robots} />

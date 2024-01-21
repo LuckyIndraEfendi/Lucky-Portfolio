@@ -5,7 +5,7 @@ import Projects from "./Projects";
 import ProjectDetails from "./ProjectDetails";
 import Skills from "./Skills";
 import Achievement from "./Achievement";
-
+import Contact from "./Contact";
 export {
   Homepage,
   About,
@@ -14,4 +14,5 @@ export {
   ProjectDetails,
   Skills,
   Achievement,
+  Contact,
 };

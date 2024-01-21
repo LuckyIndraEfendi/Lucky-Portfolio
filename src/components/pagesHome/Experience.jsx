@@ -4,7 +4,11 @@ const Experience = () => {
   return (
     <>
       <section id="experience" className="mt-28 ">
-        <div className="grid justify-center">
+        <div
+          className="grid justify-center"
+          data-aos="fade-up"
+          data-aos-offset="50"
+        >
           <h1 className="text-white font-poppins text-3xl sm:text-4xl font-bold uppercase ">
             Experience
           </h1>
@@ -12,7 +16,11 @@ const Experience = () => {
             Explore Now
           </p>
         </div>
-        <ul className="mt-10 m-auto w-full sm:w-full grid sm:grid-cols-2">
+        <ul
+          className="mt-10 m-auto w-full sm:w-full grid sm:grid-cols-2"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           {experience.map((item) => (
             <li className="relative flex gap-5 pb-6" key={item.id}>
               <div className="before:absolute before:left-[6px] before:h-full before:w-[3px] before:bg-[rgba(173,173,173,.5)]">

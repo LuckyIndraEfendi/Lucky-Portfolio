@@ -27,7 +27,7 @@ const Project = () => {
   return (
     <>
       <section id="projects" className="mt-28">
-        <div className="grid justify-center">
+        <div className="grid justify-center" data-aos="fade-up">
           <h1 className="text-white font-poppins text-3xl sm:text-4xl font-bold uppercase ">
             Projects
           </h1>
@@ -35,7 +35,11 @@ const Project = () => {
             Explore Now
           </p>
         </div>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-10 gap-5">
+        <ul
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-10 gap-5"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           {loading
             ? [1, 2, 3, 4].map((item) => (
                 <li
