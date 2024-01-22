@@ -18,7 +18,7 @@ const About = ({ animate }) => {
             data-aos-delay="300"
           >
             <img
-              src="/anime.jpg"
+              src="/profile/profile.jpeg"
               alt=""
               className="rounded-t-xl rounded-b-xl w-72 h-56  object-cover "
             />
