@@ -57,7 +57,7 @@ const Hero = () => {
         data-aos-delay="300"
       >
         <img
-          src="/anime.jpg"
+          src="/profile/profile.jpeg"
           alt=""
           className="rounded-t-xl rounded-b-xl w-1/2 sm:rotate-6  object-cover "
         />
