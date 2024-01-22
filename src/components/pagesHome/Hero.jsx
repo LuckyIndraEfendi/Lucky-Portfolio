@@ -45,9 +45,12 @@ const Hero = () => {
           <button className="ring-1 font-semibold hover:cursor-pointer text-white font-karla hover:bg-[rgba(206,25,85,.1)] duration-300 px-5 py-2 rounded-full ring-[#ce1955]">
             Hire me!
           </button>
-          <button className="ring-1 font-semibold hover:cursor-pointer text-white font-karla hover:bg-[rgba(206,25,85,.1)] duration-300 px-5 py-2 rounded-full ring-[#ce1955]">
+          <a
+            href="/pdf/Lucky-Indra-Efendi-CV.pdf"
+            className="ring-1 font-semibold hover:cursor-pointer text-white font-karla hover:bg-[rgba(206,25,85,.1)] duration-300 px-5 py-2 rounded-full ring-[#ce1955]"
+          >
             Download CV
-          </button>
+          </a>
         </div>
       </div>
       <div
