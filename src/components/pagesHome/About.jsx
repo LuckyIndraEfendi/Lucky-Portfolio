@@ -18,8 +18,12 @@ const About = ({ animate }) => {
             data-aos-delay="300"
           >
             <img
-              src="/profile/profile.jpeg"
+              src="/profile/profile2.jpeg"
               alt=""
+              onContextMenu={(e) => {
+                e.preventDefault();
+                return false;
+              }}
               className="rounded-t-xl rounded-b-xl w-72 h-56  object-cover "
             />
           </div>

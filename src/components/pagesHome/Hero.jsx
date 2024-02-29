@@ -60,9 +60,13 @@ const Hero = () => {
         data-aos-delay="300"
       >
         <img
-          src="/profile/profile.jpeg"
-          alt=""
-          className="rounded-t-xl rounded-b-xl w-1/2 sm:rotate-6  object-cover "
+          src="/profile/profile2.jpeg"
+          alt="profile"
+          onContextMenu={(e) => {
+            e.preventDefault();
+            return false;
+          }}
+          className="rounded-t-xl h-64  rounded-b-xl w-full sm:w-1/2 sm:rotate-6  object-cover "
         />
       </div>
     </section>
