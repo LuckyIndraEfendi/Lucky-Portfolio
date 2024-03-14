@@ -33,17 +33,18 @@ const About = ({ animate }) => {
             data-aos-offset="50"
             data-aos-delay="700"
           >
-            I possess proficient coding skills in ReactJS, Next JS, and
-            TailwindCSS, acquired through four years of dedicated work as a
-            Freelance Frontend Developer. My expertise lies in crafting dynamic
-            and user-friendly web applications, primarily utilizing ReactJS and
-            staying abreast of the latest technologies
+            With 3 years of experience as a Freelance Frontend Developer, I have
+            honed my skills in ReactJS, NextJS, and TailwindCSS, enabling me to
+            create dynamic and user-friendly web applications. I remain
+            dedicated to staying at the forefront of these technologies while
+            crafting innovative and user-centric experiences.
             <br />
-            <br />I am actively seeking opportunities that not only align with
-            my skill set but also contribute to my continuous personal and
-            professional development. My commitment to delivering high-quality,
-            innovative solutions makes me an ideal candidate for roles that
-            require a skilled and motivated Frontend Developer.
+            <br />
+            Currently, I seek opportunities that leverage my expertise while
+            fostering my continual professional and personal growth. My
+            commitment to delivering high-quality solutions through
+            collaborative efforts makes me a valuable asset to teams in need of
+            a skilled and motivated Frontend Developer.
           </p>
         </div>
       </section>
