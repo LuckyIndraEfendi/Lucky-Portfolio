@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins&family=Roboto:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #000000;
+}
