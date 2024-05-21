@@ -1,4 +1,4 @@
-const About = ({ animate }) => {
+const About = () => {
   return (
     <>
       <section id="about" className="mt-28">

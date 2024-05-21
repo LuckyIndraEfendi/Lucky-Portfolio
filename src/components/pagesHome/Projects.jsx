@@ -47,7 +47,7 @@ const Project = () => {
                   key={item}
                 ></li>
               ))
-            : projects.map((item, i) => (
+            : projects.map((item) => (
                 <li className="bg-[#1f1d1d] rounded-md" key={item?.id}>
                   <div className="images ">
                     <img
