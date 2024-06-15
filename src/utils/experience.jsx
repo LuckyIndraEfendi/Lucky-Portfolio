@@ -1,6 +1,26 @@
 export const experience = [
   {
     id: 1,
+    position: "Junior FullStack Developer",
+    startOn: "Jun 2024",
+    endOn: "Present",
+    description: `TMS EasyGo is a Transport Management System developed using ASP.NET Core MVC, Bootstrap 4, jQuery, SQL Server, and MongoDB. The project involves version control management with Azure DevOps and GitLab. The primary focus is on maintaining and developing new features for a Software As a Service (SaaS) web application.`,
+    skills: [
+      "Javascript",
+      "Node Js",
+      "ASP.NET",
+      "SQL Server",
+      "MongoDB",
+      "Microsoft Azure",
+      "MVC",
+      "Bootstrap 4",
+      "jQuery",
+      "GitLab",
+      "Azure DevOps",
+    ],
+  },
+  {
+    id: 2,
     position: "Freelance Frontend Wev Developer",
     startOn: "Jul 2021",
     endOn: "Mar 2024",
@@ -9,7 +29,7 @@ export const experience = [
     skills: ["Javascript", "React JS", "Next JS", "Express JS"],
   },
   {
-    id: 2,
+    id: 3,
     position: "Network Security Engineer",
     startOn: "Jul 2023",
     endOn: "Dec 2023",
@@ -18,7 +38,7 @@ export const experience = [
     skills: ["Tunneling", "Networking"],
   },
   {
-    id: 3,
+    id: 4,
     position: "Bootcamp Telkom DigiUP",
     startOn: "Dec 2022",
     endOn: "Feb 2023",
